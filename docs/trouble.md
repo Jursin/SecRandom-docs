@@ -2,7 +2,7 @@
 
 <ArticleMetadata />
 
-> 本章提供SecRandom软件使用过程中可能遇到的各类问题的详细解决方案，帮助您快速诊断并解决问题。如果您遇到的问题未在此处列出，请查阅[常见问题](08_faq/index.md)或联系技术支持。
+> 本章提供SecRandom软件使用过程中可能遇到的各类问题的详细解决方案，帮助您快速诊断并解决问题。如果您遇到的问题未在此处列出，请查阅常见问题或联系技术支持。
 
 ## 10.1 系统要求与兼容性
 ::: warning
@@ -310,9 +310,7 @@ SecRandom-cli --debug
 ## 10.7 常见问题参考
 
 如遇到其他问题，可参考以下资源：
-- [常见问题（FAQ）](08_faq/index.md)章节
 - [GitHub问题库](https://github.com/SECTL/SecRandom/issues?q=is%3Aissue+is%3Aclosed)（已解决问题）
-- [知识库文章](https://docs.secrandom.org/knowledge-base)
 - [视频教程](https://www.youtube.com/playlist?list=PLkMf14VQJ0-7kTPHhJnJjG3eJhHcGQJ8s)（包含常见问题解决方法）
 
 如果您发现了软件bug，请通过GitHub Issues报告，帮助我们改进软件。报告时请包含详细的复现步骤、系统信息和相关日志。
