@@ -29,8 +29,7 @@ export default {
     app.component('Linkcard' , Linkcard);
     app.component('ArticleMetadata' , ArticleMetadata);
     app.component('HomeUnderline' , HomeUnderline);
-    app.component('TeamCard' , TeamCard);
-    app.use(mediumZoom);
+    app.component('TeamCard' , TeamCard)
     if (inBrowser) {
       router.onAfterRouteChanged = () => {
         busuanzi.fetch()
