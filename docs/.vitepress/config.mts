@@ -14,62 +14,63 @@ export default defineConfig({
     
     // 导航栏配置
     nav: [
-      { text: '总览', link: '/overview' },
-      { text: '指南',
+      { text: '🏠 总览', link: '/overview' },
+      { text: '📚 指南',
         items: [
-          { text: '下载与运行', link: '/guide/start' },
-          { text: '界面介绍', link: '/guide/interface' },          
-          { text: '基本操作指南', link: '/guide/basic' }
+          { text: '💻 下载与运行', link: '/guide/start' },
+          { text: '🔍 界面介绍', link: '/guide/interface' },          
+          { text: '📝 基本操作指南', link: '/guide/basic' }
         ]
       },
-      { text: '核心功能',
+      { text: '🔧 核心功能',
         items: [
-          { text: '抽人配置', link: '/core-functions/person-extraction' },
-          { text: '抽奖配置', link: '/core-functions/prize-extraction' },
-          { text: '动态权重', link: '/core-functions/dynamic-weight' },
-          { text: '历史记录', link: '/core-functions/history' }
+          { text: '🤝 抽人配置', link: '/core-functions/person-extraction' },
+          { text: '🎁 抽奖配置', link: '/core-functions/prize-extraction' },
+          { text: '⚖️ 动态权重', link: '/core-functions/dynamic-weight' },
+          { text: '📜 历史记录', link: '/core-functions/history' }
         ]
       },
-      { text: '设置',
+      { text: '⚙️ 设置',
         items: [
-          { text: '基本设置', link: '/settings/basic' },
-          { text: '高级设置', link: '/settings/advanced' }
+          { text: '🔑 基本设置', link: '/settings/basic' },
+          { text: '🔒 高级设置', link: '/settings/advanced' }
           ]
       },
-      { text: '故障排除', link: '/trouble' },
-      { text: '团队', link: '/team' }
+      { text: '🛠️ 故障排除', link: '/trouble' },
+      { text: '👥 团队', link: '/team' }
     ],
 
     // 侧边栏配置
     sidebar: [
-      { text: '总览', link: '/overview' },
-      { text: '指南',
+      { text: '🏠 总览', link: '/overview' },
+      { text: '📚 指南',
         collapsed: true,
         items: [
-          { text: '下载与运行', link: '/guide/start' },
-          { text: '界面介绍', link: '/guide/interface' },          
-          { text: '基本操作指南', link: '/guide/basic' }
+          { text: '💻 下载与运行', link: '/guide/start' },
+          { text: '🔍 界面介绍', link: '/guide/interface' },          
+          { text: '📝 基本操作指南', link: '/guide/basic' }
         ]
       },
-      { text: '核心功能',
+      { text: '🔧 核心功能',
         collapsed: true,
         items: [
-          { text: '抽人配置', link: '/core-functions/person-extraction' },
-          { text: '抽奖配置', link: '/core-functions/prize-extraction' },
-          { text: '动态权重', link: '/core-functions/dynamic-weight' },
-          { text: '历史记录', link: '/core-functions/history' }
+          { text: '🤝 抽人配置', link: '/core-functions/person-extraction' },
+          { text: '🎁 抽奖配置', link: '/core-functions/prize-extraction' },
+          { text: '⚖️ 动态权重', link: '/core-functions/dynamic-weight' },
+          { text: '📜 历史记录', link: '/core-functions/history' }
         ]
       },
-      { text: '设置',
+      { text: '⚙️ 设置',
         collapsed: true,
         items: [
-          { text: '基本设置', link: '/settings/basic' },
-          { text: '高级设置', link: '/settings/advanced' }
+          { text: '🔑 基本设置', link: '/settings/basic' },
+          { text: '🔒 高级设置', link: '/settings/advanced' }
           ]
       },
-      { text: '故障排除', link: '/trouble' },
-      { text: '团队', link: '/team' }
+      { text: '🛠️ 故障排除', link: '/trouble' },
+      { text: '👥 团队', link: '/team' }
     ],
+
 
     search: {
     provider: "local",
